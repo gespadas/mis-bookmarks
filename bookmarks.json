@@ -2,17 +2,17 @@
 	"Google" : {
 		"Gmail" : "https://mail.google.com/",
 		"Google Reader" : "http://www.google.com/reader/view/",
-		"Google AdSense" : "https://www.google.com/adsense/app#home",
-		"Google Translate" : "http://translate.google.com/"
+		"Google AdSense" : "https://www.google.com/adsense/",
+		"Google Translate" : "https://translate.google.com/"
 	},
 	"Social" : {
 		"Twitter" : "https://twitter.com/",
 		"Twitter Mobile" : "https://mobile.twitter.com/",
-		"TweetDeck" : "https://web.tweetdeck.com/",
+		"TweetDeck" : "https://www.tweetdeck.com/",
 		"Facebook" : "https://www.facebook.com/"
 	},
 	"Extras" : {
 		"Hacker News" : "http://hckrnews.com/",
-		"Y! Currency" : "http://finance.yahoo.com/currency-converter/#from=USD;to=MXN;amt=1"
+		"Y! Divisas" : "http://finance.yahoo.com/currency-converter/#from=USD;to=MXN;amt=1"
 	}
 }
