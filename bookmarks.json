@@ -1,10 +1,4 @@
 {
-	"Master" : {
-		"SisLab" : "http://localhost/sislab/",
-		"phpMyAdmin" : "http://localhost/phpmyadmin/",
-		"ICDSoft" : "https://cp.s464.sureserver.com/main.php",
-		"SpeedTouch" : "http://dsldevice.lan/"
-	},
 	"Google" : {
 		"Gmail" : "https://mail.google.com/mail/u/0/?shva=1#inbox",
 		"Google Reader" : "http://www.google.com/reader/view/",
@@ -16,13 +10,6 @@
 		"Twitter Mobile" : "https://mobile.twitter.com/",
 		"TweetDeck" : "https://web.tweetdeck.com/",
 		"Facebook" : "https://www.facebook.com/"
-	},
-	"Descargas" : {
-		"TPB eztv" : "http://thepiratebay.sx/user/eztv/",
-		"Guía Series" : "http://www.pogdesign.co.uk/cat/",
-		"Subtítulos" : "http://www.subtitulos.es/",
-		"SubDivX" : "http://subdivx.com/",
-		"Solo Subtítulos" : "http://www.solosubtitulos.com/"
 	},
 	"Extras" : {
 		"Hacker News" : "http://hckrnews.com/",
