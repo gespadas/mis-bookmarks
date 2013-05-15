@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Mis Bookmarks</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mis Bookmarks">
+    <meta name="author" content="gregorio@gespadas.com">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <style>
+      body { padding-top: 60px; }
+    </style>
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="brand" href="index.html">Mis Bookmarks</a>
+      <ul class="nav nav-pills" id="categorias"></ul>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+    <div class="tab-content" id="tabs"></div>
+</div>
+
+<script src="lib/jquery.min.js"> </script>
+<script src="lib/bootstrap.min.js"> </script>
+<script>
+(function() {
+
+  $.getJSON('bookmarks.json', function(data) {
+
+    var categorias = [];
+    var tabs = [];
+    var enlaces = [];
+
+    $.each(data, function(categoria, bookmarks) {
+      categorias.push('<li><a href="#' + categoria + '" data-toggle="pill">' + categoria + '</a></li>');
+      enlaces = [];
+      $.each(bookmarks, function(nombre, url) {
+        enlaces.push('<a href="' + url + '" class="btn"><img src="https://plus.google.com/_/favicon?domain='+ url +'" alt="' + nombre + '" /> ' + nombre + '</a>');
+      });
+      tabs.push('<div class="tab-pane" id="' + categoria + '">' + enlaces.join(' ') + '</div>');
+    });
+
+    $('#categorias').html(categorias.join(''));
+    $('#tabs').html(tabs.join(''));
+
+    $('#categorias a:first').tab('show');
+
+  });
+
+}());
+</script>
+</body>
+</html>
