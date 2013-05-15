@@ -1,18 +1,25 @@
 {
 	"Google" : {
 		"Gmail" : "https://mail.google.com/",
-		"Google Reader" : "http://www.google.com/reader/view/",
-		"Google AdSense" : "https://www.google.com/adsense/",
-		"Google Translate" : "https://translate.google.com/"
+		"Reader" : "http://www.google.com/reader/view/",
+		"Search" : "https://www.google.com/",
+		"Translate" : "https://translate.google.com/",
+		"Drive" : "https://drive.google.com/",
+		"Calendar" : "https://www.google.com/calendar/",
+		"YouTube" : "https://www.youtube.com/"
 	},
 	"Social" : {
 		"Twitter" : "https://twitter.com/",
 		"Twitter Mobile" : "https://mobile.twitter.com/",
 		"TweetDeck" : "https://www.tweetdeck.com/",
-		"Facebook" : "https://www.facebook.com/"
+		"Facebook" : "https://www.facebook.com/",
+		"HootSuite" : "https://hootsuite.com/",
+		"Tumblr" : "https://www.tumblr.com/",
+		"Pinterest" : "http://pinterest.com/"
 	},
 	"Extras" : {
 		"Hacker News" : "http://hckrnews.com/",
-		"Y! Divisas" : "http://finance.yahoo.com/currency-converter/#from=USD;to=MXN;amt=1"
+		"Y! Divisas" : "http://finance.yahoo.com/currency-converter/",
+		"Time is" : "http://time.is/"
 	}
 }
